@@ -1,0 +1,6 @@
+nome = input('Qual é o seu nome?')
+nome.strip()
+print('Prazer em te conhcer!')
+div = nome.split()
+print(f'O seu primeiro nome é: {div[0]}')
+print(f'O seu último nome é: {div[len(div) - 1]}')
