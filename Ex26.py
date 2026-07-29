@@ -1,1 +1,6 @@
-
+frase = input('Digite uma frase: ')
+frase.lower()
+frase.strip()
+print(f' A quantidade de letras A na sua frase é: {frase.count('a')}')
+print(f' A primeira letra A apareceu na posição: {frase.find('a') + 1}')
+print(f' A última letra A apareceu na posição: {frase.rfind('a') + 1}')
